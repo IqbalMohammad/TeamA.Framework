@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Cnn News Media" parallel="tests">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="iqbal"/>
+    <parameter name="accessKey" value="524c1eb9-62b0-4fbc-901a-429347dced9b"/>
+    <parameter name="os" value="Win8"/>
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="browserVersion" value="46.0"/>
+    <parameter name="url" value="http://www.cnn.com"/>
+
+    <test name = "Cnn Navigation">
+        <classes>
+        </classes>
+    </test>
+
+</suite>
