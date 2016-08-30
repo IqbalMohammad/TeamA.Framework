@@ -33,13 +33,13 @@ public class Items extends Base {
         }
     }
 
-    // @Test
+     @Test
 //    public void searchUsingDB()throws Exception,InterruptedException{
 //        //initialize Search page factory
 //        SearchItems search = PageFactory.initElements(driver, SearchItems.class);
 //        //Read Data From Database
-//        ConnectDB db = new ConnectDB();
-//        List<String> st = db.readDataBase();
+//        ConnectMySqlDB db = new ConnectMySqlDB();
+//        List<String> st = db.readDataBase(teama, team);
 //        for(String data:st) {
 //            search.searchFor(data);
 //            sleepFor(2);
