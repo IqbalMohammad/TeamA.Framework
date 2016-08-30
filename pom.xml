@@ -16,6 +16,7 @@
         <module>BestBuy</module>
         <module>NYTimes</module>
         <module>Facebook</module>
+        <module>WalMart</module>
     </modules>
 
     <dependencyManagement>

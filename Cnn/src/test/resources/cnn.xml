@@ -13,7 +13,7 @@
 
     <test name = "Cnn Navigation">
         <classes>
-            <class name="search.data.DataToSearch"/>
+            <class name="search.data.SearchNews"/>
         </classes>
     </test>
 

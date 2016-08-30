@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/NYTimes/NYTimes.iml" filepath="$PROJECT_DIR$/NYTimes/NYTimes.iml" />
       <module fileurl="file://$PROJECT_DIR$/TeamAFramework.iml" filepath="$PROJECT_DIR$/TeamAFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WalMart/WalMart.iml" filepath="$PROJECT_DIR$/WalMart/WalMart.iml" />
       <module fileurl="file://$PROJECT_DIR$/eBay/eBay.iml" filepath="$PROJECT_DIR$/eBay/eBay.iml" />
     </modules>
   </component>

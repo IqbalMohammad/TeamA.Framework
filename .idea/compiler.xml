@@ -29,6 +29,7 @@
         <module name="Facebook" />
         <module name="Generic" />
         <module name="NYTimes" />
+        <module name="WalMart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -40,6 +41,7 @@
       <module name="Generic" target="1.5" />
       <module name="NYTimes" target="1.5" />
       <module name="TeamAFramework" target="1.5" />
+      <module name="WalMart" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

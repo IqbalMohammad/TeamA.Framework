@@ -1,4 +1,4 @@
-package home;
+package DataSearch;
 
 import common.Base;
 import org.apache.log4j.BasicConfigurator;
@@ -24,7 +24,7 @@ public class Search extends Base {
         BasicConfigurator.configure();
         //logger.setLevel(Level.INFO);
         //logger.info("Cnn search test started");
-        clickByCss("#search-button");
-        typeByCss("#search-input-field", data);
+        clickByCss(".header-GlobalSearch-submit.btn");
+        typeByCss("#global-search-input", data);
     }
 }
