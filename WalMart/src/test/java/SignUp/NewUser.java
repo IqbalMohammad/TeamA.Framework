@@ -21,9 +21,6 @@ public class NewUser extends Base {
 
     {
 
-       // WebDriver driver = new FirefoxDriver();
-
-       // driver.get(“http://newtours.demoaut.com/”);
 
         driver.findElement(By.linkText()).click();
 
