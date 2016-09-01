@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Amazon E-Commerce" parallel="tests">
+<suite name="Ebay retail" parallel="tests">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="userName" value="iqbal99"/>
     <parameter name="accessKey" value="524c1eb9-62b0-4fbc-901a-429347dced9b"/>
     <parameter name="os" value="Win8"/>
     <parameter name="browserName" value="chrome"/>
-    <parameter name="browserVersion" value="46.0"/>
-    <parameter name="url" value="http://www.amazon.com"/>
+    <parameter name="browserVersion" value="48.0"/>
+    <parameter name="url" value="http://www.ebay.com"/>
 
-    <test name = "Amazon Search">
+    <test name = "Ebay Navigation">
         <classes>
-            <!--<class name="home.page.Search"/>-->
-            <class name="SearchItems.Items"/>
+            <class name="Ebaypack.EbayTest"/>
         </classes>
     </test>
 

@@ -20,11 +20,14 @@ public class Search extends Base {
         };
     }
     @Test(dataProvider = "items")
-    public void test1(String data){
+    public void test1(String data) throws InterruptedException {
         BasicConfigurator.configure();
         //logger.setLevel(Level.INFO);
         //logger.info("Cnn search test started");
-        clickByCss(".header-GlobalSearch-submit.btn");
+
         typeByCss("#global-search-input", data);
+        sleepFor(3);
+        clickByCss(".header-GlobalSearch-submit.btn");
+        sleepFor(3);
     }
 }

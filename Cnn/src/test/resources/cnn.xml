@@ -4,7 +4,7 @@
 <suite name="Cnn News Media" parallel="tests">
 
     <parameter name="useCloudEnv" value="false"/>
-    <parameter name="userName" value="iqbal"/>
+    <parameter name="userName" value="iqbal99"/>
     <parameter name="accessKey" value="524c1eb9-62b0-4fbc-901a-429347dced9b"/>
     <parameter name="os" value="Win8"/>
     <parameter name="browserName" value="chrome"/>

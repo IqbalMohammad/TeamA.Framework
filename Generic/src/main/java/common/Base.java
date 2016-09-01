@@ -206,6 +206,19 @@ public class Base {
         }
 
     }
+
+    public void mouseHoverBylink(String locator) {
+        try {
+            WebElement element = driver.findElement(By.linkText(locator));
+            Actions action = new Actions(driver);
+            action.moveToElement(element).perform();
+        } catch (Exception ex) {
+            System.out.println("First attempt has been done, This is second try");
+            WebElement element = driver.findElement(By.linkText(locator));
+            Actions action = new Actions(driver);
+            action.moveToElement(element).perform();
+        }
+    }
     //handling Alert
     public void okAlert(){
         Alert alert = driver.switchTo().alert();
@@ -254,6 +267,25 @@ public class Base {
            path= "C:\Users\iqbal\workspace\TeamA\pictures\\ds1.png";
          */
     }
+
+    public void scrollToElementByxpath(String locator) {
+        WebElement element = driver.findElement(By.xpath(locator));
+        JavascriptExecutor je = (JavascriptExecutor) driver;
+        je.executeScript("arguments[0].scrollIntoView(true)", element);
+    }
+
+    public void scrollPageDown200() {
+        ((JavascriptExecutor) driver).executeScript("scroll(0, 3000)");
+
+
+    }
+
+    public void scrollPageup400() {
+        ((JavascriptExecutor) driver).executeScript("scroll(0, -300)");
+
+
+    }
+
     public void clearInput(String locator){
         driver.findElement(By.cssSelector(locator)).clear();
     }
