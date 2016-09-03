@@ -21,10 +21,8 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
-
-//import org.apache.log4j.BasicConfigurator;
-//import org.apache.log4j.Level;
 
 /**
  * Created by iqbal on 8/29/2016.
@@ -63,10 +61,10 @@ public class Base {
 
     public WebDriver getLocalDriver(String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
-            System.setProperty("webdriver.chrome.driver","C:\\Users\\iqbal\\workspace\\TeamAFramework\\Drivers\\chromedriver_win32\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","C:\\Users\\iqbal\\workspace\\TeamA.Framework\\Drivers\\chromedriver_win32\\chromedriver.exe");
             driver = new ChromeDriver();
         }else if(browserName.equalsIgnoreCase("firefox")){
-            System.setProperty("webdriver.gecko.driver","C:\\Users\\iqbal\\workspace\\TeamAFramework\\Drivers\\geckodriver-v0.10.0-win64\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver","C:\\Users\\iqbal\\workspace\\TeamA.Framework\\Drivers\\geckodriver-v0.10.0-win64\\geckodriver.exe");
             driver = new FirefoxDriver();
         } else if(browserName.equalsIgnoreCase("ie")) {
             System.setProperty("webdriver.ie.driver", "Generic/browser-driver/IEDriverServer.exe");
@@ -293,6 +291,53 @@ public class Base {
         driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
     }
 
+    public static String getMainWindowHandle(WebDriver driver) {
+        return driver.getWindowHandle();
+    }
 
 
+    public String getCurrentWindowTitle() {
+        String windowTitle = driver.getTitle();
+        return windowTitle;
+    }
+
+    public static boolean closeAllOtherWindows(WebDriver driver, String openWindowHandle) {
+        Set<String> allWindowHandles = driver.getWindowHandles();
+        for (String currentWindowHandle : allWindowHandles) {
+            if (!currentWindowHandle.equals(openWindowHandle)) {
+                driver.switchTo().window(currentWindowHandle);
+                driver.close();
+            }
+        }
+
+        driver.switchTo().window(openWindowHandle);
+        if (driver.getWindowHandles().size() == 1)
+            return true;
+        else
+            return false;
+    }
+
+
+    public static void waitForNewWindowAndSwitchToIt(WebDriver driver) throws InterruptedException {
+        String cHandle = driver.getWindowHandle();
+        String newWindowHandle = null;
+        Set<String> allWindowHandles = driver.getWindowHandles();
+
+        for (int i = 0; i < 20; i++) {
+            if (allWindowHandles.size() > 1) {
+                for (String allHandlers : allWindowHandles) {
+                    if (!allHandlers.equals(cHandle))
+                        newWindowHandle = allHandlers;
+                }
+                driver.switchTo().window(newWindowHandle);
+                break;
+            } else {
+                Thread.sleep(1000);
+            }
+        }
+        if (cHandle == newWindowHandle) {
+            throw new RuntimeException(
+                    "Time out - No window found");
+        }
+    }
 }

@@ -28,6 +28,7 @@
         <module name="eBay" />
         <module name="Facebook" />
         <module name="Generic" />
+        <module name="Linkedin" />
         <module name="NYTimes" />
         <module name="WalMart" />
       </profile>
@@ -39,6 +40,7 @@
       <module name="eBay" target="1.8" />
       <module name="Facebook" target="1.8" />
       <module name="Generic" target="1.5" />
+      <module name="Linkedin" target="1.8" />
       <module name="NYTimes" target="1.5" />
       <module name="TeamAFramework" target="1.5" />
       <module name="WalMart" target="1.8" />

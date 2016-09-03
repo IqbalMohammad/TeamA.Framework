@@ -17,6 +17,7 @@
         <module>NYTimes</module>
         <module>Facebook</module>
         <module>WalMart</module>
+        <module>Linkedin</module>
     </modules>
 
     <dependencyManagement>
