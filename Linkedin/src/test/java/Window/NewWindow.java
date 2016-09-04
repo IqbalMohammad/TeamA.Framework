@@ -25,7 +25,7 @@ public class NewWindow extends Base {
             WebDriverWait wait = new WebDriverWait(driver, 5);
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".links>ul>li>a")));
             driver.findElement(By.linkText("Help Center")).click();
-            
+
             String searchText="Selenium";
             WebElement searchInputBox=driver.findElement(By.xpath(".//*[@id='desktop-search-query']"));
             searchInputBox.sendKeys(searchText);

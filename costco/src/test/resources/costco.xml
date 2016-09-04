@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Amazon E-Commerce" parallel="tests">
+<suite name="Costco E-Commerce" parallel="tests">
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="userName" value="iqbal99"/>
@@ -9,12 +9,12 @@
     <parameter name="os" value="Win8"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="46.0"/>
-    <parameter name="url" value="http://www.amazon.com"/>
+    <parameter name="url" value="http://www.costco.com"/>
 
-    <test name = "Amazon Search">
+    <test name = "Costco Search">
         <classes>
             <!--<class name="home.page.Search"/>-->
-            <class name="SearchItems.ItemSearch.Items"/>
+            <class name="ItemSearch.Items"/>
         </classes>
     </test>
 

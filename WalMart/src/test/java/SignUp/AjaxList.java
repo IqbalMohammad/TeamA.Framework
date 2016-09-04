@@ -9,8 +9,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.util.List;
-
 /**
  * Created by iqbal on 9/2/2016.
  */
@@ -36,19 +34,19 @@ public class AjaxList extends Base {
         wait.until(ExpectedConditions.visibilityOf(autoOption));
 
         // Store the all auto suggests element in the list
-        List<WebElement> optionsToSelect = autoOption.findElements(By
-                .tagName("li"));
-        for (WebElement option : optionsToSelect) {
-
-            // Compare Expected to available options in list and select if
-            // present
-            String textToSelect = "Store";
-            if (option.getText().equals(textToSelect)) {
-                System.out.println("Trying to select: " + textToSelect);
-                option.click();
-                break;
-            }
-        }
+//        List<WebElement> optionsToSelect = autoOption.findElements(By
+//                .tagName("li"));
+//        for (WebElement option : optionsToSelect) {
+//
+//            // Compare Expected to available options in list and select if
+//            // present
+//            String textToSelect = "Store";
+//            if (option.getText().equals(textToSelect)) {
+//                System.out.println("Trying to select: " + textToSelect);
+//                option.click();
+//                break;
+//            }
+//        }
 
         int i = 1;
         int j = i + 1;

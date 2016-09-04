@@ -18,6 +18,7 @@
         <module>Facebook</module>
         <module>WalMart</module>
         <module>Linkedin</module>
+        <module>costco</module>
     </modules>
 
     <dependencyManagement>

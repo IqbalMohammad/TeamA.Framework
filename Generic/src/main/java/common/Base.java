@@ -340,4 +340,11 @@ public class Base {
                     "Time out - No window found");
         }
     }
+
+    public void searchFor(String read) {
+    }
+
+    public void clearSearchInput() {
+
+    }
 }
