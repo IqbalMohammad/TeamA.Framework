@@ -3,7 +3,7 @@
 
 <suite name="Linkedin portal" parallel="tests">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="userName" value="iqbal99"/>
     <parameter name="accessKey" value="524c1eb9-62b0-4fbc-901a-429347dced9b"/>
     <parameter name="os" value="Win8"/>
@@ -14,10 +14,6 @@
     <test name = "Linkedin Navigation">
         <classes>
             <class name="Window.NewWindow"/>
-            <!--<class name="SignUp.NewUser"/>-->
-            <!--<class name="SignUp.InputType"/>-->
-            <!--<class name="SignUp.AjaxList"/>-->
-            <!--<class name="SignUp.MouseHover"/>-->
         </classes>
     </test>
 
