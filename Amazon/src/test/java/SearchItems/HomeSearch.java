@@ -26,6 +26,4 @@ public class HomeSearch extends Base {
             text= getTextFromWebElements("#searchDropdownBox option");
         }
     }
-
-
 }

@@ -60,7 +60,7 @@ public class Items extends Base {
         };
     }
 
-    //@Test(dataProvider = "items")
+    //@TestNewUser(dataProvider = "items")
     public void searchUsingDataProvider(String data)throws InterruptedException{
         //initialize Search page factory
         SearchItems search = PageFactory.initElements(driver, SearchItems.class);

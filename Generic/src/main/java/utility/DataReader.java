@@ -13,28 +13,26 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * Created by iqbal on 8/29/2016.
+ * Created by rrt on 8/29/2015.
  */
 
 public class DataReader {
-
     HSSFWorkbook wb = null;
     HSSFSheet sheet = null;
     Cell cell = null;
     FileOutputStream fio = null;
     int numberOfRows, numberOfCol, rowNum;
-
-        public String[][] fileReader1(String path)throws IOException {
+    public String[][] fileReader1(String path)throws IOException{
         String [] [] data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
         wb = new HSSFWorkbook(fis);
         sheet = wb.getSheetAt(0);
         numberOfRows = sheet.getLastRowNum();
-        numberOfCol =  sheet.getRow(0).getLastCellNum();
+        numberOfCol = sheet.getRow(0).getLastCellNum();
         data = new String[numberOfRows][numberOfCol+1];
 
-        for(int i=1; i<data.length; i++){
+        for(int i=0; i<data.length; i++){
             HSSFRow rows = sheet.getRow(i+1);
             for(int j=0; j<numberOfCol; j++){
                 HSSFCell cell = rows.getCell(j);
@@ -42,19 +40,19 @@ public class DataReader {
                 data[i][j] = cellData;
             }
         }
-        return  data;
+        return data;
     }
     public String[] fileReader(String path)throws IOException{
-        String []  data = {};
+        String [] data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
         wb = new HSSFWorkbook(fis);
         sheet = wb.getSheetAt(0);
         numberOfRows = sheet.getLastRowNum();
-        numberOfCol =  sheet.getRow(0).getLastCellNum();
+        numberOfCol = sheet.getRow(0).getLastCellNum();
         data = new String[numberOfRows];
 
-        for(int i=1; i<data.length; i++){
+        for(int i=0; i<data.length; i++){
             HSSFRow rows = sheet.getRow(i+1);
             for(int j=0; j<numberOfCol; j++){
                 HSSFCell cell = rows.getCell(j);
@@ -62,7 +60,9 @@ public class DataReader {
                 data[i] = cellData;
             }
         }
-        return  data;
+        return data;
+
+
     }
 
     public String getCellValue(HSSFCell cell){

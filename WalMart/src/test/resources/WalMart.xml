@@ -3,7 +3,7 @@
 
 <suite name="WalMart Retail" parallel="tests">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="userName" value="iqbal99"/>
     <parameter name="accessKey" value="524c1eb9-62b0-4fbc-901a-429347dced9b"/>
     <parameter name="os" value="Win8"/>
@@ -13,12 +13,13 @@
 
     <test name = "WalMart Navigation">
         <classes>
-            <class name="SignUp.Mix"/>
-            <class name="SignUp.NewUser"/>
-            <class name="SignUp.InputType"/>
-            <class name="SignUp.AjaxList"/>
-            <class name="SignUp.MouseHover"/>
-            <class name="DataSearch.Search"/>
+            <!--<class name="SignUp.Mix"/>-->
+            <!--<class name="SignUp.NewUser"/>-->
+            <!--<class name="SignUp.InputType"/>-->
+            <!--<class name="SignUp.AjaxList"/>-->
+            <!--<class name="SignUp.MouseHover"/>-->
+            <class name="DataSearch.Search1"/>
+            <!--<class name="UseData.UseXlsMysql"/>-->
         </classes>
     </test>
 

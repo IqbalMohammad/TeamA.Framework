@@ -46,11 +46,11 @@ public class Base {
             //run in cloud
             getCloudDriver(userName,accessKey,os,browserName,browserVersion);
 //            logger.setLevel(Level.INFO);
-//            logger.info("Test is running on Saucelabs");
+//            logger.info("TestNewUser is running on Saucelabs");
         }else{
             //run in local
             getLocalDriver(browserName);
-//            logger.info("Test is running on Local");
+//            logger.info("TestNewUser is running on Local");
         }
 
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -342,6 +342,7 @@ public class Base {
     }
 
     public void searchFor(String read) {
+        
     }
 
     public void clearSearchInput() {

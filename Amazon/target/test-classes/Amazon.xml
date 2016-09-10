@@ -13,8 +13,10 @@
 
     <test name = "Amazon Search">
         <classes>
-            <!--<class name="home.page.Search"/>-->
-            <class name="SearchItems.Items"/>
+            <class name="home.page.SearchProducts"/>
+            <!--<class name="registrationNLogin.SignUp"/>-->
+            <!--<class name="SearchItems.HomeSearch"/>-->
+            <!--<class name="SearchItems.Items"/>-->
         </classes>
     </test>
 

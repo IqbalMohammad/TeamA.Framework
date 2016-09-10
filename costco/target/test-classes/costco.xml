@@ -3,18 +3,22 @@
 
 <suite name="Costco E-Commerce" parallel="tests">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="userName" value="iqbal99"/>
     <parameter name="accessKey" value="524c1eb9-62b0-4fbc-901a-429347dced9b"/>
     <parameter name="os" value="Win8"/>
-    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserName" value="firefox"/>
     <parameter name="browserVersion" value="46.0"/>
     <parameter name="url" value="http://www.costco.com"/>
 
     <test name = "Costco Search">
         <classes>
             <!--<class name="home.page.Search"/>-->
+            <!--<class name="ItemSearch.Items"/>-->
+            <!--<class name="TestNewUser.AddUser"/>-->
+            <!--<class name="TestNewUser.LogIn"/>-->
             <class name="ItemSearch.Items"/>
+            <!--<class name="UseData.UseXlsMysql"/>-->
         </classes>
     </test>
 

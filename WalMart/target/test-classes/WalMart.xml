@@ -13,12 +13,13 @@
 
     <test name = "WalMart Navigation">
         <classes>
-            <class name="SignUp.Mix"/>
-            <class name="SignUp.NewUser"/>
-            <class name="SignUp.InputType"/>
-            <class name="SignUp.AjaxList"/>
-            <class name="SignUp.MouseHover"/>
-            <class name="DataSearch.Search"/>
+            <!--<class name="SignUp.Mix"/>-->
+            <!--<class name="SignUp.NewUser"/>-->
+            <!--<class name="SignUp.InputType"/>-->
+            <!--<class name="SignUp.AjaxList"/>-->
+            <!--<class name="SignUp.MouseHover"/>-->
+            <class name="DataSearch.Search1"/>
+            <!--<class name="UseData.UseXlsMysql"/>-->
         </classes>
     </test>
 
