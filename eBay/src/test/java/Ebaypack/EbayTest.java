@@ -50,7 +50,7 @@ public class EbayTest extends Base {
         scrollPageup400();
     }
 
-//    @Test(priority = 5)
+//    @TestNewUser(priority = 5)
 //    public void loginChk() throws InterruptedException{
 //
 //        driver.findElement(By.cssSelector("#formDiv" "#pri_signin" ".fld"  ));

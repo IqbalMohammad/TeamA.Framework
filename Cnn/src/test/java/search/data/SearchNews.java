@@ -47,11 +47,11 @@ public class SearchNews extends Base {
     }
     //action steps method
     public void ClickOnSearch() {
-        clickByCss("#search-button");
+        clickByXpath(".//*[@id='search-button']");
     }
     public void TypeOnSearch()throws Exception{
         for(int i=0; i<list.size(); i++) {
-            typeByCss("#search-input-field", getNewsData().get(i));
+            typeByXpath(".//*[@id='search-input-field']", getNewsData().get(i));
         }
     }
 

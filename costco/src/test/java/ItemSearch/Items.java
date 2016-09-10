@@ -1,6 +1,6 @@
 package ItemSearch;
 
-import SearchData.SearchFromXls;
+import dataRead.SearchFromXls;
 import common.Base;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;

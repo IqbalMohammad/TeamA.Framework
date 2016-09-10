@@ -1,4 +1,4 @@
-package SearchData;
+package dataRead;
 
 import utility.DataReader;
 import java.io.IOException;
