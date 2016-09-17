@@ -2,7 +2,6 @@ package DataSearch;
 
 import SearchCreateLoginPF.Search;
 import common.Base;
-import org.apache.log4j.BasicConfigurator;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -23,12 +22,12 @@ public class Search1 extends Base {
     }
     @Test(dataProvider = "items")
     public void test1(String data) throws InterruptedException {
-        BasicConfigurator.configure();
+//        BasicConfigurator.configure();
 
-        typeByCss("#global-search-input", data);
-        sleepFor(3);
-        clickByCss(".header-GlobalSearch-submit.btn");
-        sleepFor(10);
+//        typeByCss("#global-search-input", data);
+//        sleepFor(3);
+//        clickByCss(".header-GlobalSearch-submit.btn");
+//        sleepFor(10);
 
         Search Link1 = PageFactory.initElements(driver, Search.class);
         Link1.searchResult1();

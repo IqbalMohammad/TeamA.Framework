@@ -3,17 +3,17 @@
 
 <suite name="Linkedin portal" parallel="tests">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="userName" value="iqbal99"/>
     <parameter name="accessKey" value="524c1eb9-62b0-4fbc-901a-429347dced9b"/>
     <parameter name="os" value="Win8"/>
     <parameter name="browserName" value="firefox"/>
     <parameter name="browserVersion" value="46.0"/>
-    <parameter name="url" value="http://www.Linkedin.com"/>
+    <!--<parameter name="url" value="http://www.Linkedin.com"/>-->
 
     <test name = "Linkedin Navigation">
         <classes>
-            <class name="Window.NewWindow"/>
+            <class name="Window.ExecuteTest"/>
         </classes>
     </test>
 
