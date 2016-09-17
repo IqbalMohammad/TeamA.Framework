@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548a6b4b-2671-4cc7-8a83-9d88711ca9bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Linkedin/data/TestCase.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Linkedin/data/actionSteps.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Linkedin/data/searchData.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Linkedin/data/object.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/ReadObject/ObjectFileReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/ReadObject/UIOperation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/ReadXl/XlFileRead.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/Window/ExecuteTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WalMart/data/file1.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WalMart/data/file2.xls" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WalMart/data/actionSteps.xls" afterPath="$PROJECT_DIR$/WalMart/data/actionSteps.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WalMart/data/searchData.xls" afterPath="$PROJECT_DIR$/WalMart/data/searchData.xls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/costco/data/searchData.xls" afterPath="$PROJECT_DIR$/costco/data/searchData.xls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Linkedin/src/test/resources/Linkedin.xml" afterPath="$PROJECT_DIR$/Linkedin/src/test/resources/Linkedin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Linkedin/target/test-classes/Linkedin.xml" afterPath="$PROJECT_DIR$/Linkedin/target/test-classes/Linkedin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WalMart/src/test/java/DataSearch/Search1.java" afterPath="$PROJECT_DIR$/WalMart/src/test/java/DataSearch/Search1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WalMart/target/test-classes/WalMart.xml" afterPath="$PROJECT_DIR$/WalMart/target/test-classes/WalMart.xml" />
     </list>
     <ignored path="TeamAFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,7 +38,7 @@
       <file leaf-file-name="XlFileRead.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/ReadXl/XlFileRead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
+            <state relative-caret-position="493">
               <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -64,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIOperation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UIOperation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/ReadObject/UIOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="66" column="52" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+            <state relative-caret-position="1445">
+              <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectFileReader.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ObjectFileReader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/ReadObject/ObjectFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1229,7 +1212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473487478325</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="6th Update">
+      <created>1474072416000</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1474072416000</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1285,7 +1275,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47192717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6302083" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1316,7 +1306,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5th Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="5th Update" />
+    <MESSAGE value="6th Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="6th Update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1628,26 +1619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/ReadObject/ObjectFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/ReadXl/XlFileRead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linkedin/data/object.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1690,10 +1661,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/ReadXl/XlFileRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/ReadObject/UIOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="66" column="52" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+        <state relative-caret-position="1445">
+          <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/ReadObject/ObjectFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
