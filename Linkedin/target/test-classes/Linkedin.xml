@@ -13,7 +13,8 @@
 
     <test name = "Linkedin Navigation">
         <classes>
-            <class name="Window.ExecuteTest"/>
+            <!--<class name="Window.ExecuteTest"/>-->
+            <class name="Window.TestReg"/>
         </classes>
     </test>
 

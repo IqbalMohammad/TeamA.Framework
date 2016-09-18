@@ -12,10 +12,10 @@
         <module>Generic</module>
         <module>Amazon</module>
         <module>Cnn</module>
-        <module>eBay</module>
-        <module>BestBuy</module>
-        <module>NYTimes</module>
-        <module>Facebook</module>
+        <!--<module>eBay</module>-->
+        <!--<module>BestBuy</module>-->
+        <!--<module>NYTimes</module>-->
+        <!--<module>Facebook</module>-->
         <module>WalMart</module>
         <module>Linkedin</module>
         <module>costco</module>
@@ -90,34 +90,27 @@
                 <module>Cnn</module>
             </modules>
         </profile>
-        <profile>
-            <id>NyTimes-app</id>
-            <modules>
-                <module>Generic</module>
-                <module>NYTimes</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>eBay-app</id>
-            <modules>
-                <module>Generic</module>
-                <module>eBay</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>BestBuy-app</id>
-            <modules>
-                <module>Generic</module>
-                <module>BestBuy</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>Facebook-app</id>
-            <modules>
-                <module>Generic</module>
-                <module>Facebook</module>
-            </modules>
-        </profile>
+        <!--<profile>-->
+            <!--<id>eBay-app</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>eBay</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
+        <!--<profile>-->
+            <!--<id>BestBuy-app</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>BestBuy</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
+        <!--<profile>-->
+            <!--<id>Facebook-app</id>-->
+            <!--<modules>-->
+                <!--<module>Generic</module>-->
+                <!--<module>Facebook</module>-->
+            <!--</modules>-->
+        <!--</profile>-->
 
         <profile>
             <id>default</id>
@@ -128,10 +121,10 @@
                 <module>Generic</module>
                 <module>Amazon</module>
                 <module>Cnn</module>
-                <module>NYTimes</module>
-                <module>eBay</module>
-                <module>BestBuy</module>
-                <module>Facebook</module>
+                <!--<module>NYTimes</module>-->
+                <!--<module>eBay</module>-->
+                <!--<module>BestBuy</module>-->
+                <!--<module>Facebook</module>-->
             </modules>
         </profile>
     </profiles>

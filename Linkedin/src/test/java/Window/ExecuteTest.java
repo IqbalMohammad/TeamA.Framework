@@ -44,7 +44,7 @@ public class ExecuteTest extends Base{
     				System.out.println("New Testcase->"+row.getCell(0).toString() +" Started");
     			}
 
-    			sleepFor(10);
+    			sleepFor(6);
     		}
 	}
 

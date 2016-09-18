@@ -36,15 +36,9 @@ public class UIOperation {
 			break;
 		}
 	}
-	
-	/**
-	 * Find element BY using object type and value
-	 * @param p
-	 * @param objectName
-	 * @param objectType
-	 * @return
-	 * @throws Exception
-	 */
+
+//	 Find element BY using object type and value
+
 	private By getObject(Properties p,String objectName,String objectType) throws Exception{
 		//Find by xpath
 		if(objectType.equalsIgnoreCase("XPATH")){

@@ -27,7 +27,7 @@ public class ConnectMySqlDB {
 
         return prop;
     }
-    public void connectToDatabase() throws IOException, SQLException, ClassNotFoundException {
+    public Connection connectToDatabase() throws IOException, SQLException, ClassNotFoundException {
         Properties prop = loadProperties();
         String driverClass = prop.getProperty("MYSQLJDBC.driver");
         String url = prop.getProperty("MYSQLJDBC.url");
@@ -37,6 +37,7 @@ public class ConnectMySqlDB {
         connect = DriverManager.getConnection(url,userName,password);
         System.out.println("Database is connected");
 
+        return null;
     }
 
     public List<String> readDataBase(String tableName, String columnName)throws Exception{
