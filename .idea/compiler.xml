@@ -23,14 +23,10 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Amazon" />
-        <module name="BestBuy" />
         <module name="Cnn" />
         <module name="costco" />
-        <module name="eBay" />
-        <module name="Facebook" />
         <module name="Generic" />
         <module name="Linkedin" />
-        <module name="NYTimes" />
         <module name="WalMart" />
       </profile>
     </annotationProcessing>

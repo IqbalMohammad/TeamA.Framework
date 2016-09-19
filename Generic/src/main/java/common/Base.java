@@ -40,7 +40,7 @@ public class Base {
                       @Optional("Windows 8") String os,
                       @Optional("firefox") String browserName,
                       @Optional("34") String browserVersion,
-                      @Optional("http://www.cnn.com") String url)throws IOException {
+                      @Optional("http://www.linkedin.com") String url)throws IOException {
         //BasicConfigurator.configure();
         if(useCloudEnv==true){
             //run in cloud
