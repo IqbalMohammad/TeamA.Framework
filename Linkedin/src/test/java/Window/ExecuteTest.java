@@ -11,8 +11,7 @@ import org.testng.annotations.Test;
 import java.util.Properties;
 
 /**
- * THIS IS THE EXAMPLE OF KEYWORD DRIVEN TEST CASE
- *
+ * Created by iqbal on 9/16/2016.
  */
 public class ExecuteTest extends Base{
     @Test
